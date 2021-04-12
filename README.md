@@ -11,7 +11,7 @@ url = 'http://localhost:5000/predict'
 response = requests.post(url, files={'img': open('path_to_image.jpg', 'rb')})
 ```
 
-The API returns links with the results of the face swap for both male and female.
+The API returns link with the results of the face swap for both male and female.
 
 Results are stored on the following link:
 
